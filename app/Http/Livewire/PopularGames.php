@@ -22,13 +22,11 @@ class PopularGames extends Component
         $after = Carbon::now()->addMonths(2)->timestamp;
 
         $this->popularGames = Cache::remember('popular-games', 7, function () use ($before, $after) {
-            return Http::withBody('fields name,rating; sort rating desc;', 'text/plain')
-                ->withHeaders([
-                    'Authorization' => 'Bearer dcuxy1hq77l3c9yuopjpyh4v5vxnrc',
-                    'Client-ID' => config('services.igdb.client_id'),
-                    'Accept' => 'application/json',
-                ])
-                ->withBody("
+            return Http::withHeaders([
+                'Authorization' => 'Bearer dcuxy1hq77l3c9yuopjpyh4v5vxnrc',
+                'Client-ID' => config('services.igdb.client_id'),
+                'Accept' => 'application/json',
+            ])->withBody("
                     fields name,cover.url,first_release_date,platforms.abbreviation,rating,total_rating,slug;
                     where platforms = {48,49,130,6} & slug != null & cover != null & (first_release_date >= {$before} & first_release_date < {$after});
                     sort rating desc;

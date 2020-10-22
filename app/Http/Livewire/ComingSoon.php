@@ -22,13 +22,11 @@ class ComingSoon extends Component
         $current = Carbon::now()->timestamp;
 
         $this->comingSoon = Cache::remember('coming-soon', 7, function () use ($after4Months, $current) {
-            return Http::withBody('fields name,rating; sort rating desc;', 'text/plain')
-                ->withHeaders([
-                    'Authorization' => 'Bearer dcuxy1hq77l3c9yuopjpyh4v5vxnrc',
-                    'Client-ID' => config('services.igdb.client_id'),
-                    'Accept' => 'application/json',
-                ])
-                ->withBody("
+            return Http::withHeaders([
+                'Authorization' => 'Bearer dcuxy1hq77l3c9yuopjpyh4v5vxnrc',
+                'Client-ID' => config('services.igdb.client_id'),
+                'Accept' => 'application/json',
+            ])->withBody("
                     fields name,cover.url,first_release_date,platforms.abbreviation,rating,total_rating,slug;
                     where platforms = {48,49,130,6} & slug != null & cover != null & (first_release_date >= {$current} & first_release_date < {$after4Months});
                     sort first_release_date asc;
