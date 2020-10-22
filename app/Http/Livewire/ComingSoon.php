@@ -8,7 +8,7 @@ use Livewire\Component;
 
 class ComingSoon extends Component
 {
-    public $comingSoon;
+    public $comingSoon = [];
 
     public function render()
     {
