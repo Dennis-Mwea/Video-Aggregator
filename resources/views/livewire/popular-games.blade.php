@@ -3,7 +3,7 @@
     @forelse($popularGames as $popularGame)
         <div class="game mt-8">
             <div class="relative inline-block">
-                <a href="#">
+                <a href="{{ route('games.show', $popularGame['slug']) }}">
                     <img src="{{ str_replace('thumb', 'cover_big', $popularGame['cover']['url']) }}"
                          alt="game cover"
                          class="hover:opacity-75 transition ease-in-out duration-150">
@@ -19,7 +19,8 @@
                 @endif
             </div>
 
-            <a href="#" class="block text-base font-semibold leading-tight hover:text-gray-400 mt-8">
+            <a href="{{ route('games.show', $popularGame['slug']) }}"
+               class="block text-base font-semibold leading-tight hover:text-gray-400 mt-8">
                 {{ $popularGame['name'] }}
             </a>
             <div class="text-gray-400 mt-1">

@@ -29,8 +29,8 @@ class MostAnticipated extends Component
                     'Accept' => 'application/json',
                 ])
                 ->withBody("
-                    fields name,cover.url,first_release_date,platforms.abbreviation,rating,total_rating;
-                    where platforms = {48,49,130,6} & cover != null & (first_release_date >= {$current} & first_release_date < {$after4Months});
+                    fields name,cover.url,first_release_date,platforms.abbreviation,rating,total_rating,slug;
+                    where platforms = {48,49,130,6} & slug != null & cover != null & (first_release_date >= {$current} & first_release_date < {$after4Months});
                     sort rating desc;
                     limit 4;
                 ", "text/plain")

@@ -29,8 +29,8 @@ class RecentlyReviewed extends Component
                     'Accept' => 'application/json',
                 ])
                 ->withBody("
-                    fields name,cover.url,first_release_date,platforms.abbreviation,rating,total_rating,rating_count,summary;
-                    where platforms = {48,49,130,6} & cover != null & (first_release_date >= {$before} & first_release_date < {$current} & rating_count > 5);
+                    fields name,cover.url,first_release_date,platforms.abbreviation,rating,total_rating,rating_count,summary,slug;
+                    where platforms = {48,49,130,6} & slug != null & cover != null & (first_release_date >= {$before} & first_release_date < {$current} & rating_count > 5);
                     sort rating desc;
                     limit 3;
                 ", "text/plain")

@@ -2,7 +2,7 @@
     @forelse($recentlyReviewed as $game)
         <div class="game bg-gray-800 rounded-lg shadow-md flex p-6">
             <div class="relative inline-block flex-none">
-                <a href="#">
+                <a href="{{ route('games.show', $game['slug']) }}">
                     <img src="{{ str_replace('thumb', 'cover_big', $game['cover']['url']) }}"
                          alt="game cover"
                          class="hover:opacity-75 transition ease-in-out duration-150 w-20 lg:w-48">
@@ -19,7 +19,7 @@
             </div>
 
             <div class="ml-6 lg:ml-12">
-                <a href="#"
+                <a href="{{ route('games.show', $game['slug']) }}"
                    class="block text-lg font-semibold leading-tight hover:text-gray-400 mt-0 lg:mt-4">
                     {{ $game['name'] }}
                 </a>

@@ -29,8 +29,8 @@ class PopularGames extends Component
                     'Accept' => 'application/json',
                 ])
                 ->withBody("
-                    fields name,cover.url,first_release_date,platforms.abbreviation,rating,total_rating;
-                    where platforms = {48,49,130,6} & cover != null & (first_release_date >= {$before} & first_release_date < {$after});
+                    fields name,cover.url,first_release_date,platforms.abbreviation,rating,total_rating,slug;
+                    where platforms = {48,49,130,6} & slug != null & cover != null & (first_release_date >= {$before} & first_release_date < {$after});
                     sort rating desc;
                     limit 12;
                 ", "text/plain")
