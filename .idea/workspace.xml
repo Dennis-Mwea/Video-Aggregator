@@ -13,10 +13,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bef6713c-417e-4c3f-bab5-10a054ae8d6e" name="Default Changelist" comment="Add the rest of the components (coming soon, recently reviewed, most anticipated)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/livewire/coming-soon.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/coming-soon.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/livewire/most-anticipated.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/most-anticipated.blade.php" afterDir="false" />
+    <list default="true" id="bef6713c-417e-4c3f-bab5-10a054ae8d6e" name="Default Changelist" comment="Show loading status">
       <change beforePath="$PROJECT_DIR$/resources/views/livewire/recently-reviewed.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/recently-reviewed.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -200,7 +197,7 @@
       <workItem from="1603048550607" duration="839000" />
       <workItem from="1603156154956" duration="154000" />
       <workItem from="1603175744073" duration="5403000" />
-      <workItem from="1603337028887" duration="9060000" />
+      <workItem from="1603337028887" duration="9092000" />
     </task>
     <task id="LOCAL-00001" summary="Idea files">
       <created>1603175765650</created>
@@ -251,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603345965427</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Show loading status">
+      <created>1603346100329</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1603346100329</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,7 +283,8 @@
     <MESSAGE value="Added jetpack" />
     <MESSAGE value="Add popular games compinent" />
     <MESSAGE value="Add the rest of the components (coming soon, recently reviewed, most anticipated)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add the rest of the components (coming soon, recently reviewed, most anticipated)" />
+    <MESSAGE value="Show loading status" />
+    <option name="LAST_COMMIT_MESSAGE" value="Show loading status" />
   </component>
   <component name="WindowStateProjectService">
     <state x="737" y="418" key="#Composer" timestamp="1602988115063">
