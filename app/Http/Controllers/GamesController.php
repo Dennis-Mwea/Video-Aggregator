@@ -44,12 +44,14 @@ class GamesController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param int $id
-     * @return Response
+     * @param $slug
+     * @return Application|Factory|View|Response
      */
-    public function show($id)
+    public function show($slug)
     {
-        //
+        return view('show', [
+            'slug' => $slug,
+        ]);
     }
 
     /**

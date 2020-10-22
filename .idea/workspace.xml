@@ -13,17 +13,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bef6713c-417e-4c3f-bab5-10a054ae8d6e" name="Default Changelist" comment="Remove unused spinner package">
+    <list default="true" id="bef6713c-417e-4c3f-bab5-10a054ae8d6e" name="Default Changelist" comment="Fix bug">
+      <change afterPath="$PROJECT_DIR$/app/Http/Livewire/GameDetails.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/livewire/game-details.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/GamesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/GamesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/ComingSoon.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/ComingSoon.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/MostAnticipated.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/MostAnticipated.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/PopularGames.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/PopularGames.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/RecentlyReviewed.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/RecentlyReviewed.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/livewire/coming-soon.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/coming-soon.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/livewire/most-anticipated.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/most-anticipated.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/livewire/popular-games.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/popular-games.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/livewire/recently-reviewed.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/recently-reviewed.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -207,7 +202,7 @@
       <workItem from="1603048550607" duration="839000" />
       <workItem from="1603156154956" duration="154000" />
       <workItem from="1603175744073" duration="5403000" />
-      <workItem from="1603337028887" duration="12617000" />
+      <workItem from="1603337028887" duration="17455000" />
     </task>
     <task id="LOCAL-00001" summary="Idea files">
       <created>1603175765650</created>
@@ -307,7 +302,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603348934827</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Fetch slug and connect to single game page">
+      <created>1603349667976</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1603349667976</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Fix bug">
+      <created>1603351099671</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1603351099671</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,12 +345,13 @@
     <MESSAGE value="Add popular games compinent" />
     <MESSAGE value="Add the rest of the components (coming soon, recently reviewed, most anticipated)" />
     <MESSAGE value="Show loading status" />
-    <MESSAGE value="Fix bug" />
     <MESSAGE value="Add loading spinner" />
     <MESSAGE value="Improve site performance by storing values in cache" />
     <MESSAGE value="Added skeleton loader" />
     <MESSAGE value="Remove unused spinner package" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove unused spinner package" />
+    <MESSAGE value="Fetch slug and connect to single game page" />
+    <MESSAGE value="Fix bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix bug" />
   </component>
   <component name="WindowStateProjectService">
     <state x="737" y="418" key="#Composer" timestamp="1602988115063">
@@ -352,10 +362,10 @@
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
     <state x="593" y="220" key="#Inspections/0.24.1920.1056@0.24.1920.1056" timestamp="1602989879079" />
-    <state x="697" y="297" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1603345815069">
+    <state x="697" y="297" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1603349894838">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state x="697" y="297" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.24.1920.1056@0.24.1920.1056" timestamp="1603345815069" />
+    <state x="697" y="297" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.24.1920.1056@0.24.1920.1056" timestamp="1603349894838" />
     <state x="759" y="464" key="NewPhpFileDialog" timestamp="1603337947502">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
@@ -372,9 +382,9 @@
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
     <state x="559" y="275" key="Vcs.Push.Dialog.v2/0.24.1920.1056@0.24.1920.1056" timestamp="1603347419314" />
-    <state x="623" y="236" width="672" height="678" key="search.everywhere.popup" timestamp="1603349633043">
+    <state x="623" y="236" width="672" height="678" key="search.everywhere.popup" timestamp="1603352790519">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state x="623" y="236" width="672" height="678" key="search.everywhere.popup/0.24.1920.1056@0.24.1920.1056" timestamp="1603349633043" />
+    <state x="623" y="236" width="672" height="678" key="search.everywhere.popup/0.24.1920.1056@0.24.1920.1056" timestamp="1603352790519" />
   </component>
 </project>

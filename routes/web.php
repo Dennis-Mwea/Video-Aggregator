@@ -15,10 +15,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'GamesController@index')
     ->name('games.index');
-
-Route::get('/show', function () {
-    return view('show');
-});
+Route::get('/show/{slug}', 'GamesController@show')
+    ->name('games.show');
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
