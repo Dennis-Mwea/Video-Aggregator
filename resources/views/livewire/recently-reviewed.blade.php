@@ -37,6 +37,24 @@
             </div>
         </div>
     @empty
-        <div class="spinner mt-8"></div>
+        @foreach(range(0, 2) as $game)
+            <div class="game bg-gray-800 rounded-lg shadow-md flex p-6">
+                <div class="relative inline-block flex-none">
+                    <div class="bg-gray-700 w-32 lg:w-48 h-40 lg:h-56"></div>
+                </div>
+
+                <div class="ml-6 lg:ml-12">
+                    <div class="inline-block text-lg text-transparent rounded bg-gray-800 leading-tight mt-0 lg:mt-4">
+                        Title goes here
+                    </div>
+
+                    <div class="mt-8 space-y-4 hidden lg:block">
+                        <span class="text-transparent rounded bg-gray-700 inline-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum.</span>
+                        <span class="text-transparent rounded bg-gray-700 inline-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum.</span>
+                        <span class="text-transparent rounded bg-gray-700 inline-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum.</span>
+                    </div>
+                </div>
+            </div>
+        @endforeach
     @endforelse
 </div>

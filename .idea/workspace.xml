@@ -13,12 +13,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bef6713c-417e-4c3f-bab5-10a054ae8d6e" name="Default Changelist" comment="Add loading spinner">
+    <list default="true" id="bef6713c-417e-4c3f-bab5-10a054ae8d6e" name="Default Changelist" comment="Improve site performance by storing values in cache">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/ComingSoon.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/ComingSoon.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/MostAnticipated.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/MostAnticipated.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/PopularGames.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/PopularGames.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/RecentlyReviewed.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/RecentlyReviewed.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/coming-soon.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/coming-soon.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/most-anticipated.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/most-anticipated.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/popular-games.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/popular-games.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/recently-reviewed.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/recently-reviewed.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +202,7 @@
       <workItem from="1603048550607" duration="839000" />
       <workItem from="1603156154956" duration="154000" />
       <workItem from="1603175744073" duration="5403000" />
-      <workItem from="1603337028887" duration="10348000" />
+      <workItem from="1603337028887" duration="11803000" />
     </task>
     <task id="LOCAL-00001" summary="Idea files">
       <created>1603175765650</created>
@@ -280,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603346710045</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Improve site performance by storing values in cache">
+      <created>1603347415288</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1603347415288</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,7 +319,8 @@
     <MESSAGE value="Show loading status" />
     <MESSAGE value="Fix bug" />
     <MESSAGE value="Add loading spinner" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add loading spinner" />
+    <MESSAGE value="Improve site performance by storing values in cache" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improve site performance by storing values in cache" />
   </component>
   <component name="WindowStateProjectService">
     <state x="737" y="418" key="#Composer" timestamp="1602988115063">
@@ -338,9 +347,13 @@
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
     <state x="453" y="174" key="SettingsEditor/0.24.1920.1056@0.24.1920.1056" timestamp="1603344580349" />
-    <state x="623" y="236" width="672" height="678" key="search.everywhere.popup" timestamp="1603347227271">
+    <state x="559" y="275" key="Vcs.Push.Dialog.v2" timestamp="1603347419314">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state x="623" y="236" width="672" height="678" key="search.everywhere.popup/0.24.1920.1056@0.24.1920.1056" timestamp="1603347227271" />
+    <state x="559" y="275" key="Vcs.Push.Dialog.v2/0.24.1920.1056@0.24.1920.1056" timestamp="1603347419314" />
+    <state x="623" y="236" width="672" height="678" key="search.everywhere.popup" timestamp="1603348819410">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state x="623" y="236" width="672" height="678" key="search.everywhere.popup/0.24.1920.1056@0.24.1920.1056" timestamp="1603348819410" />
   </component>
 </project>
