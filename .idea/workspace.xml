@@ -13,12 +13,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bef6713c-417e-4c3f-bab5-10a054ae8d6e" name="Default Changelist" comment="Improve site performance by storing values in cache">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/livewire/coming-soon.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/coming-soon.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/livewire/most-anticipated.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/most-anticipated.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/livewire/popular-games.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/popular-games.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/livewire/recently-reviewed.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/recently-reviewed.blade.php" afterDir="false" />
+    <list default="true" id="bef6713c-417e-4c3f-bab5-10a054ae8d6e" name="Default Changelist" comment="Added skeleton loader">
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -202,7 +199,7 @@
       <workItem from="1603048550607" duration="839000" />
       <workItem from="1603156154956" duration="154000" />
       <workItem from="1603175744073" duration="5403000" />
-      <workItem from="1603337028887" duration="11803000" />
+      <workItem from="1603337028887" duration="11849000" />
     </task>
     <task id="LOCAL-00001" summary="Idea files">
       <created>1603175765650</created>
@@ -288,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603347415288</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added skeleton loader">
+      <created>1603348842792</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1603348842792</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,7 +324,8 @@
     <MESSAGE value="Fix bug" />
     <MESSAGE value="Add loading spinner" />
     <MESSAGE value="Improve site performance by storing values in cache" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improve site performance by storing values in cache" />
+    <MESSAGE value="Added skeleton loader" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added skeleton loader" />
   </component>
   <component name="WindowStateProjectService">
     <state x="737" y="418" key="#Composer" timestamp="1602988115063">

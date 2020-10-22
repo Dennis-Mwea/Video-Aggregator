@@ -21,7 +21,6 @@
         "vue-template-compiler": "^2.6.12"
     },
     "dependencies": {
-        "tailwindcss": "^1.9.4",
-        "tailwindcss-spinner": "^1.2.0"
+        "tailwindcss": "^1.9.4"
     }
 }
