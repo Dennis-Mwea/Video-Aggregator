@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Dytech Video Games</title>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    @livewireStyles
 </head>
 <body class="bg-gray-900 text-white">
 <header class="border-b border-gray-800">
@@ -51,5 +52,6 @@
         Powered by <a href="#" class="underline hover:text-gray-400">IGDB API</a>
     </div>
 </footer>
+@livewireScripts
 </body>
 </html>

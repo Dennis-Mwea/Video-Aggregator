@@ -13,35 +13,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bef6713c-417e-4c3f-bab5-10a054ae8d6e" name="Default Changelist" comment="Fix bug (resolve controllers namespace)">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/GamesController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/igdb.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/backup.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
+    <list default="true" id="bef6713c-417e-4c3f-bab5-10a054ae8d6e" name="Default Changelist" comment="Added jetpack">
+      <change afterPath="$PROJECT_DIR$/app/Http/Livewire/PopularGames.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/livewire/popular-games.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/debugbar/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/video-game-aggregator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/video-game-aggregator.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/GamesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/GamesController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/session.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/session.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/backup.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/backup.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,6 +161,9 @@
       <path value="$PROJECT_DIR$/vendor/bacon/bacon-qr-code" />
       <path value="$PROJECT_DIR$/vendor/livewire/livewire" />
       <path value="$PROJECT_DIR$/vendor/laravel/sanctum" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/maximebf/debugbar" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar" />
     </include_path>
   </component>
   <component name="ProjectId" id="1j22pTzt3yYnsAEfqit4eLcq5tx" />
@@ -200,7 +185,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.saveactions" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -221,7 +206,7 @@
       <workItem from="1603048550607" duration="839000" />
       <workItem from="1603156154956" duration="154000" />
       <workItem from="1603175744073" duration="5403000" />
-      <workItem from="1603337028887" duration="6133000" />
+      <workItem from="1603337028887" duration="7590000" />
     </task>
     <task id="LOCAL-00001" summary="Idea files">
       <created>1603175765650</created>
@@ -244,7 +229,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603180201969</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fetch and display games on index page">
+      <created>1603343286440</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603343286440</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added jetpack">
+      <created>1603343303454</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603343303454</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,7 +267,9 @@
     <MESSAGE value="Idea files" />
     <MESSAGE value="Design single game page" />
     <MESSAGE value="Fix bug (resolve controllers namespace)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix bug (resolve controllers namespace)" />
+    <MESSAGE value="Fetch and display games on index page" />
+    <MESSAGE value="Added jetpack" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added jetpack" />
   </component>
   <component name="WindowStateProjectService">
     <state x="737" y="418" key="#Composer" timestamp="1602988115063">
@@ -279,6 +280,10 @@
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
     <state x="593" y="220" key="#Inspections/0.24.1920.1056@0.24.1920.1056" timestamp="1602989879079" />
+    <state x="697" y="297" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1603344139828">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state x="697" y="297" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.24.1920.1056@0.24.1920.1056" timestamp="1603344139828" />
     <state x="759" y="464" key="NewPhpFileDialog" timestamp="1603337947502">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
@@ -287,9 +292,13 @@
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
     <state x="672" y="222" key="RollbackChangesDialog/0.24.1920.1056@0.24.1920.1056" timestamp="1603338228410" />
-    <state x="623" y="236" width="672" height="678" key="search.everywhere.popup" timestamp="1603341031360">
+    <state x="453" y="174" key="SettingsEditor" timestamp="1603344580349">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state x="623" y="236" width="672" height="678" key="search.everywhere.popup/0.24.1920.1056@0.24.1920.1056" timestamp="1603341031360" />
+    <state x="453" y="174" key="SettingsEditor/0.24.1920.1056@0.24.1920.1056" timestamp="1603344580349" />
+    <state x="623" y="236" width="672" height="678" key="search.everywhere.popup" timestamp="1603344127584">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state x="623" y="236" width="672" height="678" key="search.everywhere.popup/0.24.1920.1056@0.24.1920.1056" timestamp="1603344127584" />
   </component>
 </project>
